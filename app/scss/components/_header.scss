@@ -23,6 +23,7 @@ header {
     text-align: center;
     font-size: 20px;
     cursor: pointer;
+    @include fontSize(large);
   }
   .button-read {
     @extend .btn;

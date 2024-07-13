@@ -1,0 +1,35 @@
+@use "../utils/index" as var;
+@import "../utils/mixin";
+
+header {
+    & h1{
+      background-color: var.$header_bg;
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+  
+  main {
+    & p{
+      background: var.$main_bg;
+      color: #fff;
+      @include p-style();
+    }
+  }
+
+  .btn{
+    border: 1px solid #000;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .button-read {
+    @extend .btn;
+    color: #fff;
+
+  }
+  .button-learn{
+    @extend .btn;
+    background-color: red !important;
+  }

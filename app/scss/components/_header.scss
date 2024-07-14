@@ -13,7 +13,7 @@ header {
     & p{
       background: var.$main_bg;
       color: #fff;
-      @include p-style();
+      @include fontSize(small);
     }
   }
 
@@ -32,5 +32,7 @@ header {
   }
   .button-learn{
     @extend .btn;
-    background-color: red !important;
+  }
+  .button-learn{
+    background: green($color: #000000);
   }

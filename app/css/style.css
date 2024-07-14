@@ -25,9 +25,7 @@ header h1 {
 main p {
   background: orange;
   color: #fff;
-  font-size: 40px;
-  text-align: center;
-  padding: 30px;
+  font-size: 18px;
 }
 
 .btn, .button-learn, .button-read {
@@ -44,7 +42,7 @@ main p {
 }
 
 .button-learn {
-  background-color: red !important;
+  background: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
